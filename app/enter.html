@@ -27,9 +27,9 @@
       </div>
       <form action="" class="user-form d-flex">
         <div class="input-wrapper">
-          <label for="error" class="fz11 fw300 c-red error-label"
+          <!-- <label for="email" class="fz11 fw300 c-red error-label"
             >Введите корректный электронный адрес</label
-          >
+          > -->
           <input
             type="text"
             placeholder="Электронный адрес"
@@ -39,27 +39,29 @@
           <img
             src="./images/src/icon-email.svg"
             alt="icon email"
-            class="icon-eye icon-email"
+            class="icon-email"
           />
         </div>
         <div class="input-wrapper">
-          <label for="error" class="fz11 fw300 c-red error-label"
+          <!-- <label for="password" class="fz11 fw300 c-red error-label"
             >Введите корректный пароль</label
-          >
+          > -->
           <input
             type="password"
-            placeholder="Подтвердите пароль"
+            placeholder="Пароль"
             id="pass"
-            class="bg-main form-input fz18"
+            class="bg-main form-input fz18 error-state"
           />
-          <img
-            src="./images/src/icon-eye.svg"
-            alt="eye icon"
-            class="icon-eye"
-          />
+          <button class="icon-eye-btn">
+            <img
+              src="./images/src/icon-eye.svg"
+              alt="eye icon"
+              class="icon-eye"
+            />
+          </button>
         </div>
       </form>
-      <a href="#" class="register btn orange disabled"> Войти </a>
+      <a href="#" class="register btn orange"> Войти </a>
       <div class="account-ask d-flex">
         <p class="answer fz14 c-white60">У Вас еще нет аккаунта?</p>
         <a href="#" class="fz14 c-white enter">Зарегистрироваться</a>
