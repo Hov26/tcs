@@ -18,283 +18,153 @@
   <body>
     <section class="basket bg-main">
       <div class="container d-flex">
-        <div class="products d-flex">
-          <ul class="product-names radius10 bg-second d-flex">
-            <li class="name fz14 fw400 c-white80">Наименование</li>
-            <li class="name fz14 fw400 c-white80">Вес</li>
-            <li class="name fz14 fw400 c-white80">Цена</li>
-            <li class="name fz14 fw400 c-white80">Количество</li>
-            <li class="name fz14 fw400 c-white80">Сумма</li>
-          </ul>
-          <ul class="product-list d-flex fd-c">
-            <li class="product-descr bg-second d-flex ai-c">
-              <img
-                src="./images/src/product-img-basket.png"
-                alt=""
-                class="product-image"
-              />
-              <div class="item-name d-flex fd-c ai-c">
+        <table>
+          <thead class="table-head">
+            <tr class="bg-second">
+              <th class="col col-1 fz14 fw400 c-white80"></th>
+              <th class="col col-2 fz14 fw400 c-white80">Наименование</th>
+              <th class="col col-3 fz14 fw400 c-white80">Вес</th>
+              <th class="col col-4 fz14 fw400 c-white80">Цена</th>
+              <th class="col col-5 fz14 fw400 c-white80">Количество</th>
+              <th class="col col-6 fz14 fw400 c-white80">Сумма</th>
+              <th class="col col-7 fz14 fw400 c-white80"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="bg-second">
+              <td class="col col-1">
+                <img
+                  src="./images/src/product-img-basket.png"
+                  alt=""
+                  class="product-image"
+                />
+              </td>
+              <td class="col col-2 d-flex fd-c ai-c">
                 <p class="fz10 fw300 c-white">BlackBurn</p>
                 <p class="fz14 fw400 c-white80">Almond ice cream</p>
-              </div>
-              <p class="fz14 fw400 c-white80 product-weight">200г</p>
-              <p class="fz14 fw400 c-white80 product-price">10.000 AMD</p>
-              <div class="selectors d-flex ai-c">
-                <button class="minus">
+              </td>
+              <td class="col col-3 fz14 fw400 c-white80 ta-c">200г</td>
+              <td class="col col-4 fz14 fw400 c-white80 ta-c">10.000 AMD</td>
+              <td class="col col-5 fz14 fw400 c-white80 ta-c">
+                <div class="selectors d-flex ai-c">
+                  <button class="minus">
+                    <img
+                      src="./images/src/icon-minus.svg"
+                      alt="minus icon"
+                      class="minus-icon"
+                    />
+                  </button>
+                  <span class="quantity fz14 fw700 c-white80">1</span>
+                  <button class="plus">
+                    <img
+                      src="./images/src/icon-plus.svg"
+                      alt="plus icon"
+                      class="minus-icon"
+                    />
+                  </button>
+                </div>
+              </td>
+              <td class="col col-6 fz14 fw400 c-white80 ta-c">10.000 AMD</td>
+              <td class="col col-7">
+                <button class="delete">
                   <img
-                    src="./images/src/icon-minus.svg"
-                    alt="minus icon"
-                    class="minus-icon"
+                    src="./images/src/icon-trash.svg"
+                    alt="trash icon"
+                    class="icon-trash"
                   />
                 </button>
-                <span class="quantity fz14 fw700 c-white80">1</span>
-                <button class="plus">
-                  <img
-                    src="./images/src/icon-plus.svg"
-                    alt="plus icon"
-                    class="minus-icon"
-                  />
-                </button>
-              </div>
-              <p class="fz14 fw400 c-white80 product-sum">10.000 AMD</p>
-              <button class="delete">
+              </td>
+            </tr>
+            <tr class="bg-second">
+              <td class="col col-1">
                 <img
-                  src="./images/src/icon-trash.svg"
-                  alt="trash icon"
-                  class="icon-trash"
+                  src="./images/src/product-img-basket.png"
+                  alt=""
+                  class="product-image"
                 />
-              </button>
-            </li>
-            <li class="product-descr bg-second d-flex ai-c">
-              <img
-                src="./images/src/product-img-basket.png"
-                alt=""
-                class="product-image"
-              />
-              <div class="item-name d-flex fd-c ai-c">
+              </td>
+              <td class="col col-2 d-flex fd-c ai-c">
                 <p class="fz10 fw300 c-white">BlackBurn</p>
                 <p class="fz14 fw400 c-white80">Almond ice cream</p>
-              </div>
-              <p class="fz14 fw400 c-white80 product-weight">200г</p>
-              <p class="fz14 fw400 c-white80 product-price">10.000 AMD</p>
-              <div class="selectors d-flex ai-c">
-                <button class="minus">
+              </td>
+              <td class="col col-3 fz14 fw400 c-white80 ta-c">200г</td>
+              <td class="col col-4 fz14 fw400 c-white80 ta-c">10.000 AMD</td>
+              <td class="col col-5 fz14 fw400 c-white80 ta-c">
+                <div class="selectors d-flex ai-c">
+                  <button class="minus">
+                    <img
+                      src="./images/src/icon-minus.svg"
+                      alt="minus icon"
+                      class="minus-icon"
+                    />
+                  </button>
+                  <span class="quantity fz14 fw700 c-white80">1</span>
+                  <button class="plus">
+                    <img
+                      src="./images/src/icon-plus.svg"
+                      alt="plus icon"
+                      class="minus-icon"
+                    />
+                  </button>
+                </div>
+              </td>
+              <td class="col col-6 fz14 fw400 c-white80 ta-c">10.000 AMD</td>
+              <td class="col col-7">
+                <button class="delete">
                   <img
-                    src="./images/src/icon-minus.svg"
-                    alt="minus icon"
-                    class="minus-icon"
+                    src="./images/src/icon-trash.svg"
+                    alt="trash icon"
+                    class="icon-trash"
                   />
                 </button>
-                <span class="quantity fz14 fw700 c-white80">1</span>
-                <button class="plus">
-                  <img
-                    src="./images/src/icon-plus.svg"
-                    alt="plus icon"
-                    class="minus-icon"
-                  />
-                </button>
-              </div>
-              <p class="fz14 fw400 c-white80 product-sum">10.000 AMD</p>
-              <button class="delete">
+              </td>
+            </tr>
+            <tr class="bg-second">
+              <td class="col col-1">
                 <img
-                  src="./images/src/icon-trash.svg"
-                  alt="trash icon"
-                  class="icon-trash"
+                  src="./images/src/product-img-basket.png"
+                  alt=""
+                  class="product-image"
                 />
-              </button>
-            </li>
-            <li class="product-descr bg-second d-flex ai-c">
-              <img
-                src="./images/src/product-img-basket.png"
-                alt=""
-                class="product-image"
-              />
-              <div class="item-name d-flex fd-c ai-c">
+              </td>
+              <td class="col col-2 d-flex fd-c ai-c">
                 <p class="fz10 fw300 c-white">BlackBurn</p>
                 <p class="fz14 fw400 c-white80">Almond ice cream</p>
-              </div>
-              <p class="fz14 fw400 c-white80 product-weight">200г</p>
-              <p class="fz14 fw400 c-white80 product-price">10.000 AMD</p>
-              <div class="selectors d-flex ai-c">
-                <button class="minus">
+              </td>
+              <td class="col col-3 fz14 fw400 c-white80 ta-c">200г</td>
+              <td class="col col-4 fz14 fw400 c-white80 ta-c">10.000 AMD</td>
+              <td class="col col-5 fz14 fw400 c-white80 ta-c">
+                <div class="selectors d-flex ai-c">
+                  <button class="minus">
+                    <img
+                      src="./images/src/icon-minus.svg"
+                      alt="minus icon"
+                      class="minus-icon"
+                    />
+                  </button>
+                  <span class="quantity fz14 fw700 c-white80">1</span>
+                  <button class="plus">
+                    <img
+                      src="./images/src/icon-plus.svg"
+                      alt="plus icon"
+                      class="minus-icon"
+                    />
+                  </button>
+                </div>
+              </td>
+              <td class="col col-6 fz14 fw400 c-white80 ta-c">10.000 AMD</td>
+              <td class="col col-7">
+                <button class="delete">
                   <img
-                    src="./images/src/icon-minus.svg"
-                    alt="minus icon"
-                    class="minus-icon"
+                    src="./images/src/icon-trash.svg"
+                    alt="trash icon"
+                    class="icon-trash"
                   />
                 </button>
-                <span class="quantity fz14 fw700 c-white80">1</span>
-                <button class="plus">
-                  <img
-                    src="./images/src/icon-plus.svg"
-                    alt="plus icon"
-                    class="minus-icon"
-                  />
-                </button>
-              </div>
-              <p class="fz14 fw400 c-white80 product-sum">10.000 AMD</p>
-              <button class="delete">
-                <img
-                  src="./images/src/icon-trash.svg"
-                  alt="trash icon"
-                  class="icon-trash"
-                />
-              </button>
-            </li>
-            <li class="product-descr bg-second d-flex ai-c">
-              <img
-                src="./images/src/product-img-basket.png"
-                alt=""
-                class="product-image"
-              />
-              <div class="item-name d-flex fd-c ai-c">
-                <p class="fz10 fw300 c-white">BlackBurn</p>
-                <p class="fz14 fw400 c-white80">Almond ice cream</p>
-              </div>
-              <p class="fz14 fw400 c-white80 product-weight">200г</p>
-              <p class="fz14 fw400 c-white80 product-price">10.000 AMD</p>
-              <div class="selectors d-flex ai-c">
-                <button class="minus">
-                  <img
-                    src="./images/src/icon-minus.svg"
-                    alt="minus icon"
-                    class="minus-icon"
-                  />
-                </button>
-                <span class="quantity fz14 fw700 c-white80">1</span>
-                <button class="plus">
-                  <img
-                    src="./images/src/icon-plus.svg"
-                    alt="plus icon"
-                    class="minus-icon"
-                  />
-                </button>
-              </div>
-              <p class="fz14 fw400 c-white80 product-sum">10.000 AMD</p>
-              <button class="delete">
-                <img
-                  src="./images/src/icon-trash.svg"
-                  alt="trash icon"
-                  class="icon-trash"
-                />
-              </button>
-            </li>
-            <li class="product-descr bg-second d-flex ai-c">
-              <img
-                src="./images/src/product-img-basket.png"
-                alt=""
-                class="product-image"
-              />
-              <div class="item-name d-flex fd-c ai-c">
-                <p class="fz10 fw300 c-white">BlackBurn</p>
-                <p class="fz14 fw400 c-white80">Almond ice cream</p>
-              </div>
-              <p class="fz14 fw400 c-white80 product-weight">200г</p>
-              <p class="fz14 fw400 c-white80 product-price">10.000 AMD</p>
-              <div class="selectors d-flex ai-c">
-                <button class="minus">
-                  <img
-                    src="./images/src/icon-minus.svg"
-                    alt="minus icon"
-                    class="minus-icon"
-                  />
-                </button>
-                <span class="quantity fz14 fw700 c-white80">1</span>
-                <button class="plus">
-                  <img
-                    src="./images/src/icon-plus.svg"
-                    alt="plus icon"
-                    class="minus-icon"
-                  />
-                </button>
-              </div>
-              <p class="fz14 fw400 c-white80 product-sum">10.000 AMD</p>
-              <button class="delete">
-                <img
-                  src="./images/src/icon-trash.svg"
-                  alt="trash icon"
-                  class="icon-trash"
-                />
-              </button>
-            </li>
-            <li class="product-descr bg-second d-flex ai-c">
-              <img
-                src="./images/src/product-img-basket.png"
-                alt=""
-                class="product-image"
-              />
-              <div class="item-name d-flex fd-c ai-c">
-                <p class="fz10 fw300 c-white">BlackBurn</p>
-                <p class="fz14 fw400 c-white80">Almond ice cream</p>
-              </div>
-              <p class="fz14 fw400 c-white80 product-weight">200г</p>
-              <p class="fz14 fw400 c-white80 product-price">10.000 AMD</p>
-              <div class="selectors d-flex ai-c">
-                <button class="minus">
-                  <img
-                    src="./images/src/icon-minus.svg"
-                    alt="minus icon"
-                    class="minus-icon"
-                  />
-                </button>
-                <span class="quantity fz14 fw700 c-white80">1</span>
-                <button class="plus">
-                  <img
-                    src="./images/src/icon-plus.svg"
-                    alt="plus icon"
-                    class="minus-icon"
-                  />
-                </button>
-              </div>
-              <p class="fz14 fw400 c-white80 product-sum">10.000 AMD</p>
-              <button class="delete">
-                <img
-                  src="./images/src/icon-trash.svg"
-                  alt="trash icon"
-                  class="icon-trash"
-                />
-              </button>
-            </li>
-            <li class="product-descr bg-second d-flex ai-c">
-              <img
-                src="./images/src/product-img-basket.png"
-                alt=""
-                class="product-image"
-              />
-              <div class="item-name d-flex fd-c ai-c">
-                <p class="fz10 fw300 c-white">BlackBurn</p>
-                <p class="fz14 fw400 c-white80">Almond ice cream</p>
-              </div>
-              <p class="fz14 fw400 c-white80 product-weight">200г</p>
-              <p class="fz14 fw400 c-white80 product-price">10.000 AMD</p>
-              <div class="selectors d-flex ai-c">
-                <button class="minus">
-                  <img
-                    src="./images/src/icon-minus.svg"
-                    alt="minus icon"
-                    class="minus-icon"
-                  />
-                </button>
-                <span class="quantity fz14 fw700 c-white80">1</span>
-                <button class="plus">
-                  <img
-                    src="./images/src/icon-plus.svg"
-                    alt="plus icon"
-                    class="minus-icon"
-                  />
-                </button>
-              </div>
-              <p class="fz14 fw400 c-white80 product-sum">10.000 AMD</p>
-              <button class="delete">
-                <img
-                  src="./images/src/icon-trash.svg"
-                  alt="trash icon"
-                  class="icon-trash"
-                />
-              </button>
-            </li>
-          </ul>
-        </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
         <div class="order-block d-flex">
           <div class="top bg-second radius10">
             <p class="top-title fz32 fw700 c-white80 ta-c">Корзина</p>
@@ -310,6 +180,7 @@
         </div>
       </div>
     </section>
+
     <footer class="footer bg-second">
       <div class="container d-flex ai-c">
         <a href="#" class="logo">

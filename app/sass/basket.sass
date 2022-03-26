@@ -3,23 +3,20 @@
     .container
         justify-content: space-between 
         gap: 30px
-    .products
+        align-items: flex-start
+    table
         width: 70%
-        flex-direction: column
-        gap: 5px   
-    .product-names
-        justify-content: center
-        gap: 120px
-        padding: 9px 110px
-    .product-list
-        gap: 5px
-        height: 67vh
-        overflow: auto
-    .product-descr
-        width: 100%
-        justify-content: space-between
-        border-radius: 10px
-        padding: 10px 35px 10px 20px
+        border-collapse: separate
+        border-spacing: 0px 5px
+    .table-head
+        .col
+            padding: 9px 6px  
+    .col
+        padding: 10px 20px
+    .col-1
+        border-radius: 10px 0 0 10px
+    .col-7
+        border-radius: 0 10px 10px 0  
     .product-image
         width: 60px
     .selectors
@@ -27,6 +24,10 @@
         border-radius: 50px
         gap: 16px
         background: rgba(255, 255, 255, 0.05)
+        justify-content: center
+        width: 80%
+        margin: 0 auto
+        max-width: 84px
     .order-block
         width: 33%
         flex-direction: column
