@@ -2,28 +2,38 @@
     padding: 45px 0 35px
     .container
         gap: 22px
-        .products-list
+        .delivery-table
             width: 67%
-        .product-details-wrapper
-            max-height: 550px
-            overflow: auto
-        .titles-wrapper, .product-details
-            justify-content: space-between
-            gap: 30px
-            padding: 0 90px 0 20px
-            margin-bottom: 5px
-        .title-container, .details-container
-            padding: 9px
+            border-collapse: collapse
+        .delivary-tbody
+            max-width: 590px
+            overflow: scroll
+        .table-tr
             text-align: center
-        .title-empty-container
-            min-width: 60px
-        .product-img
+            border-bottom: 5px solid var(--mainBg)
+        .table-title:first-child, .table-content:first-child
+            border-radius: 10px 0 0 10px
+        .table-title:last-child, .table-content:last-child
+            border-radius: 0 10px 10px 0
+        .table-title
+            padding: 9px 
+            width: 18%
+        .short
+            width: 10%
+        .long
+            width: 20%
+        .middle
+            width: 15% 
+        .table-content
+            padding: 10px 9px
+        .table-img
             max-width: 60px
-            flex: none  
-        .quantity
-            padding: 4.5px 39px
+        .oval
             border-radius: 14px
-
+            background-color: var(--mainBg)
+            padding: 4px 39px
+            max-width: 85px
+            margin: 0 auto
         .delivery-details
             width: 33%
         .delivery-top
