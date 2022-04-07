@@ -1,5 +1,4 @@
 .basket
-    padding: 75px 0 35px 0
     .container
         justify-content: space-between 
         gap: 30px
@@ -9,8 +8,16 @@
         border-collapse: separate
         border-spacing: 0px 5px
     .table-head
+        display: block
         .col
             padding: 9px 6px  
+    .table-tbody
+        display: block
+        height: 547px
+        overflow: auto
+    tr
+        display: flex
+        align-items: center
     .col
         padding: 10px 20px
     td:first-child,
@@ -30,8 +37,6 @@
         justify-content: center
         margin: 0 auto
         max-width: 84px
-    tbody:last-child
-       border: 1px solid red
     .order-block
         width: 33%
         flex-direction: column
