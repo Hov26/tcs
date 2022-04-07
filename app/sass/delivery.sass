@@ -1,14 +1,19 @@
 .delivery
-    padding: 45px 0 35px
+    padding: 0 0 35px 0
     .container
         gap: 22px
         .delivery-table
             width: 67%
             border-collapse: collapse
+        .delivery-thead
+            display: block
         .delivary-tbody
-            max-width: 590px
-            overflow: scroll
+            display: block
+            height: 547px
+            overflow: auto
         .table-tr
+            display: flex
+            align-items: center
             text-align: center
             border-bottom: 5px solid var(--mainBg)
         .table-title:first-child, .table-content:first-child
