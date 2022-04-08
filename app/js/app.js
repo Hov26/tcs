@@ -15,7 +15,7 @@
 //   });
 
 const userBtn = document.querySelector(".dropdown-menu");
-const dropDown = document.querySelector(".dropdown-profile");
+const dropDown = document.querySelector(".nav");
 let menuOpen = false;
 userBtn.addEventListener("click", () => {
     if(!menuOpen) {
