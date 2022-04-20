@@ -17,6 +17,25 @@ img
     align-items: center
 
 .jc-c
+    justify-content: center
+
+.ta-c
+    text-align: center
+
+.fd-c
+    flex-direction: column
+
+button
+    border: none
+    background: none
+    cursor: pointer
+    padding: 0 0
+    &:hover
+        opacity: .8
+
+.radius10
+    border-radius: 10px
+    
     justify-content: center    
 
 .radius10
@@ -31,6 +50,7 @@ img
     text-align: center
     color: var(--white)
     cursor: pointer
+    transition: all 300ms linear
     &.orange
         background-color: var(--orange)
         &.disabled
@@ -45,16 +65,26 @@ img
     &:hover, .active
         opacity: .8
     &.blackLight
+        min-width: 170px
+        padding: 13px 10px
         background-color: var(--secondBg)
         font-weight: 400
         color: rgba(255, 255, 255, 0.8)
-        border: 1px solid rgba(255, 255, 255, 0)
+        border: 1px solid var(--secondBg)
+        transition: all 300ms linear
         &:hover, .active
-            padding: 13px 27px
             font-weight: 700
             color: var(--white)
-            border: 1px solid var(--grayLight)
-            
+            border-color: var(--grayLight)
+
+.img-with-ratio
+    width: 100%
+    height: 100%
+    position: absolute
+    top: 0
+    left: 0
+    object-fit: cover   
+ 
 
 
         

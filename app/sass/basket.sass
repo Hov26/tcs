@@ -1,0 +1,61 @@
+.basket
+    .container
+        justify-content: space-between 
+        gap: 30px
+        align-items: flex-start
+    table
+        width: 70%
+        border-collapse: separate
+        border-spacing: 0px 5px
+    .table-head
+        display: block
+        .col
+            padding: 9px 6px  
+    .table-tbody
+        display: block
+        height: 547px
+        overflow: auto
+    tr
+        display: flex
+        align-items: center
+        justify-content: space-between
+        margin-bottom: 5px
+        border-radius: 10px
+    .col
+        padding: 10px 20px
+
+      
+    .product-image
+        width: 60px
+    .selectors
+        padding: 3px 4px
+        border-radius: 50px
+        gap: 16px
+        background: rgba(255, 255, 255, 0.05)
+        justify-content: center
+        margin: 0 auto
+        max-width: 84px
+    .order-block
+        width: 33%
+        flex-direction: column
+        gap: 5px
+    .top
+        padding: 45px 30px
+    .sum
+        padding: 83px 30px
+        gap: 46px
+    .order
+        padding: 34px 30px 
+        gap: 12px
+    .minus, .plus
+        &:focus
+            transform: scale(.95)
+
+@media screen and ( max-width: 1440px )
+    .basket
+        .products
+            max-width: 843px
+        .product-names
+            gap: 69px
+        .order-block
+            max-width: 407px
