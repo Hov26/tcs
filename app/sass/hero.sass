@@ -1,0 +1,57 @@
+.hero
+    padding-bottom: 46px
+    .img-content-wrapper
+        gap: 30px
+    .img-wrapper
+        width: 57%  
+    .figure
+        position: relative
+        padding-top: 92.5%
+    .hero-img
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        object-fit: cover
+        border-radius: 20px
+    .content
+        width: 43%
+        padding: 40px 20px 80px 30px
+        border-radius: 20px
+    .blackburn-title-img
+        display: block
+        margin: 0 auto
+    .subtitle
+        margin: 60px 0 12px 0
+    .paragraph
+        opacity: 0.8
+        line-height: 1.5  
+        max-width: 500px
+    .explanation-wrapper
+        gap: 30px
+        margin: 24px 0 60px 0
+    .explanation
+        border-radius: 10px
+    .explanation-1
+        padding: 5px 16px
+    .explanation-2
+        padding: 6px 10px
+    .arrow-btn
+        background-color: transparent
+        border: none
+        display: block
+        margin: 48px auto 0 auto
+        cursor: pointer
+    .arrow-img
+        max-width: 28px
+        
+        
+@media screen and ( max-width: 1440px )
+    .hero
+        .paragraph
+            @include fontSize(18)
+        .explanation-wrapper
+            gap: 20px
+        .explanation
+            @include fontSize(10)

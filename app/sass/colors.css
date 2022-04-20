@@ -6,4 +6,6 @@
   --grayLight: #979797;
   --red: #ed0000;
   --orange: #ff6900;
+  --white60: rgba(255, 255, 255, 0.6);
+  --white80: rgba(255, 255, 255, 0.8);
 }

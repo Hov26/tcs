@@ -19,6 +19,9 @@ img
 .jc-c
     justify-content: center    
 
+.radius10
+    border-radius: 10px    
+
 .btn
     font-size: 18px
     font-weight: 600
@@ -30,6 +33,10 @@ img
     cursor: pointer
     &.orange
         background-color: var(--orange)
+        &.disabled
+            background-color: rgba(47, 47, 47, 0.8)
+            color: rgba(255, 255, 255, 0.3)
+            cursor: not-allowed
     &.white
         background-color: var(--white)
         color: var(--black)
